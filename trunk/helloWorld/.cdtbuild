@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?fileVersion 3.1.0?>
+
+<ManagedProjectBuildInfo>
+<project id="helloWorld.com.ti.ccstudio.buildDefinitions.MSP430.ProjectType.1995325386" name="MSP430" projectType="com.ti.ccstudio.buildDefinitions.MSP430.ProjectType">
+<configuration artifactExtension="out" artifactName="helloWorld" description="" id="com.ti.ccstudio.buildDefinitions.MSP430.Debug.402682610" name="Debug" parent="com.ti.ccstudio.buildDefinitions.MSP430.Debug">
+<toolChain id="com.ti.ccstudio.buildDefinitions.MSP430_3.2.exe.DebugToolchain.74837765" name="TI Code Generation Tools" superClass="com.ti.ccstudio.buildDefinitions.MSP430_3.2.exe.DebugToolchain" targetTool="com.ti.ccstudio.buildDefinitions.MSP430_3.2.exe.linkerDebug.979405259">
+<option id="com.ti.ccstudio.buildDefinitions.core.OPT_CODEGEN_VERSION.91249671" superClass="com.ti.ccstudio.buildDefinitions.core.OPT_CODEGEN_VERSION" value="3.2.1" valueType="string"/>
+<option id="com.ti.ccstudio.buildDefinitions.core.OPT_TAGS.480326736" superClass="com.ti.ccstudio.buildDefinitions.core.OPT_TAGS" valueType="stringList">
+<listOptionValue builtIn="false" value="DEVICE_CONFIGURATION_ID=MSP430F2013"/>
+<listOptionValue builtIn="false" value="DEVICE_ENDIANNESS=little"/>
+<listOptionValue builtIn="false" value="LINKER_COMMAND_FILE=lnk_msp430f2013.cmd"/>
+<listOptionValue builtIn="false" value="RUNTIME_SUPPORT_LIBRARY=rts430.lib"/>
+<listOptionValue builtIn="false" value="IS_ASSEMBLY_ONLY=false"/>
+<listOptionValue builtIn="false" value="CCS_MBS_VERSION=4.0.3"/>
+<listOptionValue builtIn="false" value="PROJECT_KIND=com.ti.ccstudio.managedbuild.core.ProjectKind_Executable"/>
+</option>
+<tool id="com.ti.ccstudio.buildDefinitions.MSP430_3.2.exe.compilerDebug.1784889795" name="MSP430 Compiler" superClass="com.ti.ccstudio.buildDefinitions.MSP430_3.2.exe.compilerDebug">
+<option id="com.ti.ccstudio.buildDefinitions.MSP430_3.2.compilerID.DIAG_WARNING.1634962887" superClass="com.ti.ccstudio.buildDefinitions.MSP430_3.2.compilerID.DIAG_WARNING" valueType="stringList">
+<listOptionValue builtIn="false" value="225"/>
+</option>
+<option id="com.ti.ccstudio.buildDefinitions.MSP430_3.2.compilerID.INCLUDE_PATH.731972401" superClass="com.ti.ccstudio.buildDefinitions.MSP430_3.2.compilerID.INCLUDE_PATH" valueType="includePath">
+<listOptionValue builtIn="false" value="&quot;${CCE_INSTALL_ROOT}/msp430/include&quot;"/>
+<listOptionValue builtIn="false" value="&quot;${CG_TOOL_ROOT}/include&quot;"/>
+</option>
+<option id="com.ti.ccstudio.buildDefinitions.MSP430_3.2.compilerID.PRINTF_SUPPORT.1402271193" superClass="com.ti.ccstudio.buildDefinitions.MSP430_3.2.compilerID.PRINTF_SUPPORT" value="com.ti.ccstudio.buildDefinitions.MSP430_3.2.compilerID.PRINTF_SUPPORT.minimal" valueType="enumerated"/>
+</tool>
+<tool id="com.ti.ccstudio.buildDefinitions.MSP430_3.2.exe.linkerDebug.979405259" name="MSP430 Linker" superClass="com.ti.ccstudio.buildDefinitions.MSP430_3.2.exe.linkerDebug">
+<option id="com.ti.ccstudio.buildDefinitions.MSP430_3.2.linkerID.OUTPUT_FILE.940479529" superClass="com.ti.ccstudio.buildDefinitions.MSP430_3.2.linkerID.OUTPUT_FILE" value="&quot;helloWorld.out&quot;" valueType="string"/>
+<option id="com.ti.ccstudio.buildDefinitions.MSP430_3.2.linkerID.MAP_FILE.1720116501" superClass="com.ti.ccstudio.buildDefinitions.MSP430_3.2.linkerID.MAP_FILE" value="&quot;helloWorld.map&quot;" valueType="string"/>
+<option id="com.ti.ccstudio.buildDefinitions.MSP430_3.2.linkerID.LIBRARY.1045127754" superClass="com.ti.ccstudio.buildDefinitions.MSP430_3.2.linkerID.LIBRARY" valueType="libs">
+<listOptionValue builtIn="false" value="&quot;rts430.lib&quot;"/>
+</option>
+<option id="com.ti.ccstudio.buildDefinitions.MSP430_3.2.linkerID.SEARCH_PATH.895639887" superClass="com.ti.ccstudio.buildDefinitions.MSP430_3.2.linkerID.SEARCH_PATH" valueType="stringList">
+<listOptionValue builtIn="false" value="&quot;${CCE_INSTALL_ROOT}/msp430/include&quot;"/>
+<listOptionValue builtIn="false" value="&quot;${CG_TOOL_ROOT}/lib&quot;"/>
+<listOptionValue builtIn="false" value="&quot;${CG_TOOL_ROOT}/include&quot;"/>
+</option>
+<option id="com.ti.ccstudio.buildDefinitions.MSP430_3.2.linkerID.HEAP_SIZE.579796488" superClass="com.ti.ccstudio.buildDefinitions.MSP430_3.2.linkerID.HEAP_SIZE" value="0" valueType="string"/>
+<option id="com.ti.ccstudio.buildDefinitions.MSP430_3.2.linkerID.STACK_SIZE.594979548" superClass="com.ti.ccstudio.buildDefinitions.MSP430_3.2.linkerID.STACK_SIZE" value="50" valueType="string"/>
+</tool>
+<macros expandEnvironmentMacros="true"/>
+</toolChain>
+</configuration>
+<configuration artifactExtension="out" artifactName="helloWorld" description="" id="com.ti.ccstudio.buildDefinitions.MSP430.Release.600484702" name="Release" parent="com.ti.ccstudio.buildDefinitions.MSP430.Release">
+<toolChain id="com.ti.ccstudio.buildDefinitions.MSP430_3.2.exe.ReleaseToolchain.2005192945" name="TI Code Generation Tools" superClass="com.ti.ccstudio.buildDefinitions.MSP430_3.2.exe.ReleaseToolchain" targetTool="com.ti.ccstudio.buildDefinitions.MSP430_3.2.exe.linkerRelease.1465038771">
+<option id="com.ti.ccstudio.buildDefinitions.core.OPT_CODEGEN_VERSION.714215766" superClass="com.ti.ccstudio.buildDefinitions.core.OPT_CODEGEN_VERSION" value="3.2.1" valueType="string"/>
+<option id="com.ti.ccstudio.buildDefinitions.core.OPT_TAGS.863975042" superClass="com.ti.ccstudio.buildDefinitions.core.OPT_TAGS" valueType="stringList">
+<listOptionValue builtIn="false" value="DEVICE_CONFIGURATION_ID=MSP430F2013"/>
+<listOptionValue builtIn="false" value="DEVICE_ENDIANNESS=little"/>
+<listOptionValue builtIn="false" value="LINKER_COMMAND_FILE=lnk_msp430f2013.cmd"/>
+<listOptionValue builtIn="false" value="RUNTIME_SUPPORT_LIBRARY=rts430.lib"/>
+<listOptionValue builtIn="false" value="IS_ASSEMBLY_ONLY=false"/>
+<listOptionValue builtIn="false" value="CCS_MBS_VERSION=4.0.3"/>
+<listOptionValue builtIn="false" value="PROJECT_KIND=com.ti.ccstudio.managedbuild.core.ProjectKind_Executable"/>
+</option>
+<tool id="com.ti.ccstudio.buildDefinitions.MSP430_3.2.exe.compilerRelease.505697913" name="MSP430 Compiler" superClass="com.ti.ccstudio.buildDefinitions.MSP430_3.2.exe.compilerRelease">
+<option id="com.ti.ccstudio.buildDefinitions.MSP430_3.2.compilerID.DIAG_WARNING.42753531" superClass="com.ti.ccstudio.buildDefinitions.MSP430_3.2.compilerID.DIAG_WARNING" valueType="stringList">
+<listOptionValue builtIn="false" value="225"/>
+</option>
+<option id="com.ti.ccstudio.buildDefinitions.MSP430_3.2.compilerID.INCLUDE_PATH.133537488" superClass="com.ti.ccstudio.buildDefinitions.MSP430_3.2.compilerID.INCLUDE_PATH" valueType="includePath">
+<listOptionValue builtIn="false" value="&quot;${CCE_INSTALL_ROOT}/msp430/include&quot;"/>
+<listOptionValue builtIn="false" value="&quot;${CG_TOOL_ROOT}/include&quot;"/>
+</option>
+<option id="com.ti.ccstudio.buildDefinitions.MSP430_3.2.compilerID.PRINTF_SUPPORT.473767176" superClass="com.ti.ccstudio.buildDefinitions.MSP430_3.2.compilerID.PRINTF_SUPPORT" value="com.ti.ccstudio.buildDefinitions.MSP430_3.2.compilerID.PRINTF_SUPPORT.minimal" valueType="enumerated"/>
+</tool>
+<tool id="com.ti.ccstudio.buildDefinitions.MSP430_3.2.exe.linkerRelease.1465038771" name="MSP430 Linker" superClass="com.ti.ccstudio.buildDefinitions.MSP430_3.2.exe.linkerRelease">
+<option id="com.ti.ccstudio.buildDefinitions.MSP430_3.2.linkerID.OUTPUT_FILE.1988478792" superClass="com.ti.ccstudio.buildDefinitions.MSP430_3.2.linkerID.OUTPUT_FILE" value="&quot;helloWorld.out&quot;" valueType="string"/>
+<option id="com.ti.ccstudio.buildDefinitions.MSP430_3.2.linkerID.MAP_FILE.2122645576" superClass="com.ti.ccstudio.buildDefinitions.MSP430_3.2.linkerID.MAP_FILE" value="&quot;helloWorld.map&quot;" valueType="string"/>
+<option id="com.ti.ccstudio.buildDefinitions.MSP430_3.2.linkerID.LIBRARY.1179988533" superClass="com.ti.ccstudio.buildDefinitions.MSP430_3.2.linkerID.LIBRARY" valueType="libs">
+<listOptionValue builtIn="false" value="&quot;rts430.lib&quot;"/>
+</option>
+<option id="com.ti.ccstudio.buildDefinitions.MSP430_3.2.linkerID.SEARCH_PATH.796282597" superClass="com.ti.ccstudio.buildDefinitions.MSP430_3.2.linkerID.SEARCH_PATH" valueType="stringList">
+<listOptionValue builtIn="false" value="&quot;${CCE_INSTALL_ROOT}/msp430/include&quot;"/>
+<listOptionValue builtIn="false" value="&quot;${CG_TOOL_ROOT}/lib&quot;"/>
+<listOptionValue builtIn="false" value="&quot;${CG_TOOL_ROOT}/include&quot;"/>
+</option>
+<option id="com.ti.ccstudio.buildDefinitions.MSP430_3.2.linkerID.HEAP_SIZE.181332189" superClass="com.ti.ccstudio.buildDefinitions.MSP430_3.2.linkerID.HEAP_SIZE" value="0" valueType="string"/>
+<option id="com.ti.ccstudio.buildDefinitions.MSP430_3.2.linkerID.STACK_SIZE.1672391818" superClass="com.ti.ccstudio.buildDefinitions.MSP430_3.2.linkerID.STACK_SIZE" value="50" valueType="string"/>
+</tool>
+<macros/>
+</toolChain>
+</configuration>
+</project>
+</ManagedProjectBuildInfo>
